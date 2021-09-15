@@ -43,7 +43,9 @@ hr {
 }
 
 .list-non-bullet {
-  list-style: none;
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
 }
 
 .list-item-inline {
@@ -79,6 +81,7 @@ hr {
 
 .hero {
   padding: 2rem;
+  text-align: center;
 }
 
 .hero .hero-img {
@@ -111,7 +114,7 @@ hr {
 }
 
 .section a {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .social {

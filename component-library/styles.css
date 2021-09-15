@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap");
+
+:root {
+  --primary-color: #ec4899;
+  --light-gray: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fluid-container {
+  padding: 0rem 0.5rem;
+}
+
+.center-container {
+  max-width: 300px;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+.non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  padding: 1rem 0rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.section {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--light-gray);
+}
+
+.social {
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.social .link {
+  color: white;
+}
+
+.social .social-media {
+  padding-inline-start: 0px;
+}
+
+.social .social-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

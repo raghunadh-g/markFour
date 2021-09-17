@@ -133,9 +133,12 @@ hr {
   text-align: center;
 }
 
-.bottom {
-  margin-top: 200px;
-}
+/* .bottom {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+} */
 
 .social .link {
   color: white;

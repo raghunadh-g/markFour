@@ -11,6 +11,9 @@ body {
   margin: 0;
   padding: 0;
 }
+p {
+  line-height: 2rem;
+}
 
 .fluid-container {
   padding: 0rem 0.5rem;

@@ -3,7 +3,7 @@
 :root {
   --primary-color: black;
   --light-gray: #f3f4f6;
-  --dark-gray: #6b7280;
+  --dark-gray: #b4bccc;
 }
 
 body {
@@ -154,4 +154,38 @@ hr {
 .social .social-header {
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+/* styling git blog */
+
+.git-blog {
+  text-align: justify;
+}
+
+.blog-list-item {
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+
+#blog-command-container {
+  background-color: var(--dark-gray);
+  padding: 0.5em;
+}
+
+#blog-command-content {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+#blog-command-output-container {
+  background-color: black;
+  color: white;
+  padding: 0.1rem;
+}
+
+.blog-author-dp {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
